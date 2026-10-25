@@ -1,3 +1,5 @@
 # DRAMA+ Viewer
 
-Download the latest approved Viewer APK from [Releases](../../releases/latest). Install over the existing app and confirm installation in Android. Studio is not distributed here.
+[Download the latest approved Viewer release](https://github.com/xjitroy/Drama-Plus-Public/releases/latest).
+
+Install over the existing app. Android asks for installation confirmation. Studio and app source are not published here.
