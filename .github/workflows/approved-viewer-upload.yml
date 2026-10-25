@@ -1,4 +1,4 @@
-name: Upload approved Viewer v0.6.18
+name: Upload approved Viewer v0.6.19
 on: workflow_dispatch
 permissions:
   contents: write
@@ -12,6 +12,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd approved/v0.6.18
-          sha256sum -c DRAMA-plus-v0.6.18.apk.sha256
-          gh release upload v0.6.18 DRAMA-plus-v0.6.18.apk viewer-update.json DRAMA-plus-v0.6.18.apk.sha256 --repo xjitroy/Drama-Plus-Public --clobber
+          cd approved/v0.6.19
+          sha256sum -c DRAMA-plus-v0.6.19.apk.sha256
+          gh release upload v0.6.19 DRAMA-plus-v0.6.19.apk viewer-update.json DRAMA-plus-v0.6.19.apk.sha256 --repo xjitroy/Drama-Plus-Public --clobber
